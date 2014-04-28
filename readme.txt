@@ -1,1 +1,1 @@
-O rui é feio
+O rui e feio
