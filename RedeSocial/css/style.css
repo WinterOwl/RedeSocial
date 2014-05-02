@@ -5,6 +5,15 @@ body
 	background-color:#F0F0F0;
 }
 
+a
+{
+	color:#999;
+	font-size:22px;
+	font-family:Arial, Verdana, Geneva, sans-serif;
+	text-align:center; 
+	text-decoration:none; 	
+} 
+
 .Top-Navigator
 {
 	width:100%;
@@ -12,4 +21,41 @@ body
 	background-color: #222;
 	border-bottom: 5px solid #00A0EB;
 	position:fixed;
+}
+
+.content-top-navigator
+{
+	margin:0px auto;
+	width:600px;
+}
+
+.ul_top-menu
+{
+	margin:0px;
+	height:44px;
+	list-style-type: none;
+	padding-top:0px;
+}
+
+.content-top-navigator .ul_top-menu li
+{
+	display:inline;
+	padding:20px;
+	float: left;
+	position: relative;
+}
+
+.content-top-navigator .ul_top-menu li:hover a
+{
+	color:#fff;
+}
+
+.content-top-navigator .ul_top-menu li.active
+{
+	background-color:#00A0EB;
+}
+
+.content-top-navigator .ul_top-menu li.active a
+{
+	color:#fff;
 }
