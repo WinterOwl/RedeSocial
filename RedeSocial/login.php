@@ -2,9 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<title>gatos.com</title>
 </head>
 
-<body>
+<body style="margin:0 auto;">
+	<div class="Top-Navigator" style="height:75px"><?php include("header.php"); ?></div>
 </body>
 </html>
