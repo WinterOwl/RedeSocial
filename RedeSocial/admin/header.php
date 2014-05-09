@@ -3,21 +3,21 @@
   <table cellspacing="0" border="0" width="1024">
   	<tr>
     	<td width="60">
-        	<a href="?pg=home"><img src="img/home.png" width="30" height="30" />
+        	<a href="?pg=home"><img src="../img/home.png" width="30" height="30" />
         	Home</a>
   		</td>
         <td width="60">
-  			<a href="#"><img src="img/group.png" width="30" height="30" />
+  			<a href="#"><img src="../img/group.png" width="30" height="30" />
   			Friends</a>
   		</td>
         <td width="60" >
-        <a href="#"><img src="img/menu.png" width="30" height="30" style="margin-left:15px;" />
+        <a href="#"><img src="../img/menu.png" width="30" height="30" style="margin-left:15px;" />
         	Notifications</a>
         </td>
         <td width="900" border="1">
         </td>
         <td>
-  			<a href="#"><img src="img/settings.png" width="30" height="30" /></a>
+  			<a href="#"><img src="../img/settings.png" width="30" height="30" /></a>
   		</td>
     </tr>
   </table>
