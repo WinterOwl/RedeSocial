@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript" src="js/script.js"></script>
 <title>gatos.com</title>
 </head>
 
