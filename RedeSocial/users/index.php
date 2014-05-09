@@ -8,7 +8,9 @@
 
 <body>
 <div class="Top-Navigator"> <?php include "header.php";?></div>
-<div class="Content"><?php include "pages.php"; ?></div>
+<div class="Content">
+	<div class="Content_total"><?php include "pages.php"; ?></div>
+</div>
 <div class="Footer"><?php include "footer.php"; ?></div>
 </body>
 </html>	

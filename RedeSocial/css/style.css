@@ -17,10 +17,13 @@ a
 .Content{
 	margin:0 auto;
 	width:1024px;
-	height:400px;
+	
+}
+.Content_total{
+	float:left;
+	width:1024px;
 	border:2px solid #e4e4e4;
 	background-color:#FFFFFF;
-	
 }
 .Top-Navigator
 {
@@ -70,14 +73,18 @@ a
 
 /*************************************************Home CSS***************************************************************/
 .home_left{
-	border:1px solid red;
 	float:left;
 	width:200px;
 	padding:5px;
 }
 .home_right{
-	border:1px solid red;
 	float:left;
 	width:800px;
 	padding:5px;
+}
+.ul_left_menu li{
+	list-style-type:none;
+	width:200px;
+	margin-left:-40px;
+	padding:5px 0px 5px 0px;
 }
