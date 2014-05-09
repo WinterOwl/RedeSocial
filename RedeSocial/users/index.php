@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Gatos.com</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css" />
+<?php include "config.php"; ?>
 </head>
 
 <body>
