@@ -21,9 +21,11 @@ function login()
 	
 	if(mail.length <= 0 || val_email(mail) != 1)
 		document.getElementById("login-err").innerHTML = "Email Invalido";
+	
 	else if(val_email(mail) == 1 && mail.length > 0 && pw.length > 0)
 	{
-		document.getElementById("form-log").method = "GET";
-		document.getElementById("form-log").action = "?ola";
+		document.getElementById("btn-log").type = "submit";
+		document.getElementById("form-log").method = "post";
+		document.getElementById("form-log").action = "?funcao=1";
 	}
 }

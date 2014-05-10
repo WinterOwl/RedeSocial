@@ -11,7 +11,7 @@ Sobre
 
 Informação Básica
 
-<?php $sql=mysql_query("select * from users where id_users='1'");
+<?php $sql=mysql_query("select * from users where id_user='1'");
 while($linha=mysql_fetch_array($sql)){
 	$nome=$linha['nome'];
 	$data_nascimento=$linha['data_nascimento'];
