@@ -27,6 +27,7 @@ else
     </tr>
     <tr>
         <td width="600">
+        <div style="text-align:center;"><?php if($msg=='1') echo "Email Enviado com sucesso!"; else if($msg=='2')echo "Registo submetido com sucesso!";?></div>
   		</td>
         <td width="60">
   			<input type="text" id="txt-log-email" name="txt-log-email"/> 
@@ -44,7 +45,7 @@ else
     	<td width="600">
   		</td>
         <td id="login-err" style="color:red;text-align:center" width="60">
-        <?php if($msg == '2')echo "Dados incorrectos."?>
+        <?php if($msg == '3')echo "Dados incorrectos."?>
   		</td>
         <td width="60">	
         	<a href="?funcao=2" style="font-size:12px;color:#999;margin-left:5px;">Esqueci-me da password</a>
@@ -94,12 +95,8 @@ if($funcao==1 && isset($_POST['txt-log-email']))
 	
 	}
 	else
-		echo "<meta http-equiv=refresh content='0; url=index.php?msg=2'>";
+		echo "<meta http-equiv=refresh content='0; url=index.php?msg=3'>";
 }
 
-if($funcao == 2) //enviar email
-{
-	//echo "<div style=\"width:600px;height:400px; margin:auto; margin-top:50px;background:rgba(0,0,0,0.7); \"></div>";
-}
 
 ?>
