@@ -1,5 +1,6 @@
 function MM_jumpmenu(targ, selObj, restore)
 {
+	alert("ola");
 	eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
 	if(restore)selObj.selectedIndex=0;
 }
@@ -17,6 +18,7 @@ function val_email(valemail)
 	else
 		return 0;
 }
+
 
 function login()
 {

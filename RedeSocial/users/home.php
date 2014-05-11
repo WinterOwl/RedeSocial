@@ -23,6 +23,7 @@ else{
 <?php } ?>
 <ul class="ul_left_menu">
 	<li><a href="?pg=home&pg_m=informacoes">Informações</a></li>
+    <li><a href="?pg=home&pg_m=mostrar">Encontrar Pessoas</a></li>
     <li><a href="?pg=home&pg_m=amigos">Amigos</a></li>
 	<li><a href="?pg=home&pg_m=albuns&funcao=albuns">Albuns</a></li>
     <li><a href="?pg=home&pg_m=interesses">Interesses</a></li>

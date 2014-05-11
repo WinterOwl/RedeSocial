@@ -8,6 +8,7 @@ case 'informacoes': include "informacoes.php"; break;
 case 'amigos': include "amigos.php"; break;
 case 'albuns': include "albuns.php"; break;
 case 'interesses': include "interesses.php"; break;
+case 'mostrar': include "mostrar.php"; break;
 
 default: include "informacoes.php";break;
 }
