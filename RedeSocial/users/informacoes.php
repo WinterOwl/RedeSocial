@@ -8,8 +8,9 @@ $funcao='';
 
 
 <div class="title">Informação Básica</div>
-
-<?php $sql=mysql_query("select * from users where id_user='1'");
+<?php 
+$id_user=$_SESSION['id_user'];
+$sql=mysql_query("select * from users where id_user='$id_user'");
 while($linha=mysql_fetch_array($sql)){
 	$id_user=$linha['id_user'];
 	$nome=$linha['nome'];
