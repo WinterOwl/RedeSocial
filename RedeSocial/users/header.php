@@ -1,4 +1,7 @@
-
+<?php 
+if(!$_SESSION['id_user'])
+	echo "<meta http-equiv=refresh content='0; url=../index.php'>";
+?>
 <div class="content-top-navigator" style="padding-top:8px;color:#00A0EB">
   <table cellspacing="0" border="0" width="1024">
   	<tr>
@@ -17,7 +20,7 @@
         <td width="900" border="1">
         </td>
         <td>
-  			<a href="#"><img src="../img/settings.png" width="30" height="30" /></a>
+  			<a href="logout.php"><img src="../img/Shutdown.png" width="50" height="50" /></a>
   		</td>
     </tr>
   </table>

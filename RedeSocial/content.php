@@ -14,7 +14,7 @@ else
 	<img src="img/Social.jpg"/>
 </div>
 
-<div style="margin-top:40px;margin-bottom:60px; float:left; border:1px solid red;width:600px;text-align:center">
+<div style="margin-top:40px;margin-bottom:60px; float:left;width:600px;text-align:center">
 <?php 
 if($funcao != '2')
 {

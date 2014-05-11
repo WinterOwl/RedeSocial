@@ -8,7 +8,10 @@
       return confirm("Pretende mesmo apagar esta imagem?");
     }
   </script>
-<?php if(isset($_GET['msg']))
+<?php 
+if(!$_SESSION['id_user'])
+	echo "<meta http-equiv=refresh content='0; url=../index.php'>";
+if(isset($_GET['msg']))
 $msg=$_GET['msg'];
 else
 $msg='';

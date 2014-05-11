@@ -5,7 +5,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Gatos.com</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css" />
-<?php include "config.php"; ?>
+<?php include "config.php"; 
+if(!$_SESSION['id_user'])
+	echo "<meta http-equiv=refresh content='0; url=../index.php'>";
+
+?>
 </head>
 <body>
 <div class="Top-Navigator"> <?php include "header.php";?></div>

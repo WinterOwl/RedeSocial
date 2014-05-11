@@ -1,4 +1,7 @@
-<?php if(isset($_GET['funcao']))
+<?php
+if(!$_SESSION['id_user'])
+	echo "<meta http-equiv=refresh content='0; url=../index.php'>";
+if(isset($_GET['funcao']))
 $funcao=$_GET['funcao'];
 else
 $funcao='';

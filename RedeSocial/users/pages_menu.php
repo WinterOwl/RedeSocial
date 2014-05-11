@@ -1,4 +1,7 @@
 <?php
+if(!$_SESSION['id_user'])
+	echo "<meta http-equiv=refresh content='0; url=../index.php'>";
+
 if(isset($_GET['pg_m']))
 $pg_m=$_GET['pg_m'];
 else
