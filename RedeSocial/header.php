@@ -18,10 +18,10 @@ else
   	<tr>
     	<td width="600">
   		</td>
-        <td width="60">
+        <td width="80">
   			<a>Email</a> 
   		</td>
-        <td width="60" >
+        <td width="80" >
        		<a>Password</a>
         </td>
     </tr>
@@ -29,10 +29,10 @@ else
         <td width="600">
         <div style="text-align:center;"><?php if($msg=='1') echo "Email Enviado com sucesso!"; else if($msg=='2')echo "Registo submetido com sucesso!";?></div>
   		</td>
-        <td width="60">
+        <td width="80">
   			<input type="text" id="txt-log-email" name="txt-log-email"/> 
   		</td>
-        <td width="60" >
+        <td width="80" >
        		<input type="password" id="txt-log-pwd" name="txt-log-pwd"/>
         </td>
         <td>
@@ -44,10 +44,10 @@ else
     <tr>
     	<td width="600">
   		</td>
-        <td id="login-err" style="color:red;text-align:center" width="60">
+        <td id="login-err" style="color:red;text-align:center" width="80">
         <?php if($msg == '3')echo "Dados incorrectos."?>
   		</td>
-        <td width="60">	
+        <td width="80">	
         	<a href="?funcao=2" style="font-size:12px;color:#999;margin-left:5px;">Esqueci-me da password</a>
   		</td>
     </tr>
