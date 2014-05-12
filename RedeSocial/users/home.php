@@ -9,7 +9,7 @@ $funcao='';
 <div class="home_left">
 <?php 
 $id_user=$_SESSION['id_user'];
-$sql=mysql_query("select * from fotos where id_user='$id_user' and foto_perfil='1'");
+$sql=mysql_query("select * from fotos where id_user='$id_user' and foto_perfil='1' order by id_foto desc limit 1 ");
 $cont=mysql_num_rows($sql);
 if($cont!='0'){
 	while($linha=mysql_fetch_array($sql)){
@@ -29,7 +29,6 @@ else{
     <li><a href="?pg=home&pg_m=mostrar">Encontrar Pessoas</a></li>
     <li><a href="?pg=home&pg_m=amigos">Amigos</a></li>
 	<li><a href="?pg=home&pg_m=albuns&funcao=albuns">Albuns</a></li>
-    <li><a href="?pg=home&pg_m=interesses">Interesses</a></li>
     
 </ul>
 </div>

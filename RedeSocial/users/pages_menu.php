@@ -12,7 +12,8 @@ case 'amigos': include "amigos.php"; break;
 case 'albuns': include "albuns.php"; break;
 case 'interesses': include "interesses.php"; break;
 case 'mostrar': include "mostrar.php"; break;
+case 'notificacoes': include "notificacoes.php"; break;
 
-default: include "informacoes.php";break;
+default: include "noticias.php";break;
 }
 ?>

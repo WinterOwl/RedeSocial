@@ -1,3 +1,8 @@
+<script type="text/javascript">
+    function confirma4(){
+      return confirm("Pretende mesmo sair?");
+    }
+  </script>
 <?php 
 if(!$_SESSION['id_user'])
 	echo "<meta http-equiv=refresh content='0; url=../index.php'>";
@@ -10,17 +15,17 @@ if(!$_SESSION['id_user'])
         	Home</a>
   		</td>
         <td width="60">
-  			<a href="#"><img src="../img/group.png" width="30" height="30" />
+  			<a href="?pg=home&pg_m=amigos"><img src="../img/group.png" width="30" height="30" />
   			Friends</a>
   		</td>
         <td width="60" >
-        <a href="#"><img src="../img/menu.png" width="30" height="30" style="margin-left:15px;" />
+        <a href="?pg=home&pg_m=notificacoes"><img src="../img/menu.png" width="30" height="30" style="margin-left:15px;" />
         	Notifications</a>
         </td>
         <td width="900" border="1">
         </td>
         <td>
-  			<a href="logout.php"><img src="../img/Shutdown.png" width="50" height="50" /></a>
+  			<a href="logout.php" onclick="return confirma4();" ><img src="../img/Shutdown.png" width="50" height="50" /></a>
   		</td>
     </tr>
   </table>

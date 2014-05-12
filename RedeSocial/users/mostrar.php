@@ -30,6 +30,6 @@ if(!$_SESSION['id_user'])
 
 <form>
   <input style="margin-left:150px;" class="txt_log" type="text" onKeyUp="validate(this.value)" placeholder="Encontrar Pessoas"/>
-  <table id="foo" style="font-size:18px;margin-top:30px;">
+  <table id="foo" width="100%" style="font-size:18px;margin-top:30px;">
   </table>
 </form>

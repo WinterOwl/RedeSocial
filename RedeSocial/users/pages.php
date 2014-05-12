@@ -9,6 +9,7 @@ $pg='';
 switch($pg){
 case 'home': include "home.php"; break;
 
+
 default: include "home.php";break;
 }
 ?>
