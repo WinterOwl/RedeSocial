@@ -91,6 +91,7 @@ function validar_data(data, op)
 		
 }
 
+
 function registo()
 {
 	limpar_registo();
@@ -107,7 +108,15 @@ function registo()
 		document.getElementById("reg_err_nome").innerHTML = "*Campo Obrigatorio";
 		erros++;
 	}
-	if(validar_data(data, 0).length != 0)
+	if(data.length == 0 )
+	{
+		document.getElementById("reg_err_data").innerHTML = "*Campo Obrigatorio";
+	}
+	else if(data.length != 10 && data.length != 0 )
+	{
+		document.getElementById("reg_err_data").innerHTML = "Respeite o formato da data";
+	}
+	else if((validar_data(data, 0).length != 0) && data.length == 10)
 	{
 		document.getElementById("reg_err_data").innerHTML = validar_data(data, 0);
 		erros++
